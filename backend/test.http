@@ -1,0 +1,9 @@
+GET http://localhost:5000
+
+###
+POST http://localhost:5000/ask
+Content-Type: application/json
+
+{
+    "question":"what is my name"
+}
